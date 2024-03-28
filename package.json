@@ -1,0 +1,25 @@
+{
+  "name": "esign-api",
+  "version": "0.0.1",
+  "description": "SDK for eSign Open API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "esign",
+    "api",
+    "sdk"
+  ],
+  "author": "esign-engineering@mekari.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.3"
+  }
+}
